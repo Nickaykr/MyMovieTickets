@@ -1,0 +1,216 @@
+body { 
+    margin: 0;
+}
+
+#navigation{
+    background: #F0E68C;
+    padding-top: 30px;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+
+.button_navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#content{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.button_navigation li {
+    float: left;
+    padding-left: 1%;
+}
+
+.login-form {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 100%;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #958816;
+    color: white;
+}
+
+#loginButton {
+    display: block;
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+    color: #0e0e0e;
+    text-decoration: none; 
+    border-bottom: 2px solid transparent; 
+    font-size: 130%;
+}
+
+a > button {  
+    text-decoration: none; 
+    font-size: 120%;
+}
+
+a:hover > button {
+  text-decoration: none; 
+}
+
+#reqistration{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+#accountInfo{
+    margin-top: 3%;
+    display: none;
+    font-size: 120%;
+}
+
+#accountInfo > img{
+    width: 100px;
+    height: 100px;
+}
+
+img{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+#left{
+    transform: scaleX(-1);
+}
+
+select{
+    width: 50%;
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.showtime-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px; 
+    display: inline-block;
+    width: auto; 
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.showtime-card label {
+    display: block; 
+}
+
+.showtime-card input[type="radio"] {
+    margin-right: 5px;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.showtime-card input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #958816;
+    border-radius: 50%;
+}
+
+.showtime-card p {
+    padding: 5px;
+    border-radius: 3px;
+    transition: color 0.2s ease; /*  Плавный переход для текста*/
+}
+
+#showtimes{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#form-bron{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 5%; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+#form-bron h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#forgot-passwprd{
+    display: block;
+    text-align: center;
+    padding-top: 3%;
+}

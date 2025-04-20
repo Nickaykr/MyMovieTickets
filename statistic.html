@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>статистика</title>
+    <link rel="stylesheet" href="style/glav.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="index.html"><button>Главная</button></a></li>
+         <li><a href="fild.html"><button>Фильмы</button></a></li>
+         <li><a href="theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="account.html"><button>Аккаунт</button></a></li>
+         <li><a href=""><button>Статистика</button></a></li>
+         <li><a href="info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">    
+        <h2>Самый популярныe фильмы</h2>
+        <div id="popular">
+            <table id="popularMoviesTable">
+                <thead>
+                    <tr>
+                        <th>Название фильма</th>
+                        <th>Количество бронирования</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>  
+        <h2>Продажи по кинoтеартам</h2>
+        <div>
+          <canvas id="myChart"></canvas>
+        </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script/ststictic.js"></script>
+  </body>
+</html>

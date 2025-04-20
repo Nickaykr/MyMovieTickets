@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Интерстеллар</title>
+    <link rel="stylesheet" href="../style/glav.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="../index.html"><button>Главная</button></a></li>
+         <li><a href="../fild.html"><button>Фильмы</button></a></li>
+         <li><a href="../theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="../myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="../account.html"><button>Аккаунт</button></a></li>
+         <li><a href="../statistic.html"><button>Статистика</button></a></li>
+         <li><a href="../info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+      <div id="info">
+        <img src="../resourses/film.jpg" alt="Интерстеллар" title="Интерстеллар">
+        <div class="text_film">
+          <p id="movieTitle" class="zagolovok">Тут дожен быть заголовок</p>
+          <h2>О фильме</h2>
+          <div class="genre-container">
+            <p>Год выпуска: </p>
+            <p id="year_movie"></p>
+          </div>
+          <div class="genre-container">
+            <h3>Жанр:</h3>
+            <div id="genre_movie"></div>
+          </div>
+          <div class="genre-container">
+            <p>Страна производства: </p>
+            <p id="county_movie"></p>
+          </div>
+          <div class="genre-container">
+            <p>Продолжительность: </p>
+            <p id="duration_movie"></p>
+            <p>Мин</p>
+          </div>
+          <div class="genre-container">
+            <p>Возрастной рейтинг: </p>
+            <p id="rating_movie"></p>
+          </div>
+        </div>
+      </div>  
+      <a href="bron.html?movieId=1"><button>Забронировать билет</button></a>
+      <p>Описание фильма</p>
+      <p id="movieDescription">Описание</p>    
+      <p>Трейлер фильма</p>
+      
+        <iframe
+          width="720"
+          height="405"
+          src="https://rutube.ru/play/embed/431d40d0b432eb2c37c8d427bce15356"
+          frameBorder="0"
+          allow="clipboard-write; autoplay"
+          webkitAllowFullScreen
+          mozallowfullscreen
+          allowFullScreen
+        ></iframe>
+
+        <p>Актёры и съёмочная группа</p>
+        <div class="gruppa">
+          <p>Режиссёр: </p>
+          <p id="reshisher"></p>
+        </div>
+        <div class="gruppa">
+          <p>Сценарист: </p>
+          <p id="shenarist"></p>
+        </div>
+        <div class="gruppa">
+          <p>В главных ролях: </p>
+          <p id="roli"></p>
+        </div>
+        <p>Рейтинги и отзывы</p>
+        <div class="gruppa">
+          <p>Рейтинг: </p>
+          <p id="oshenka"></p>
+          <p>Количество оценок: </p>
+          <p id="kol_oshenka"></p>
+        </div>
+    </div>
+    <script src="../script/renderInter.js"></script>
+  </body>
+</html>

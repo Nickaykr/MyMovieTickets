@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+#content{
+    padding-left: 2%;
+    margin-bottom: 3%;
+}
+#navigation{
+    background: #F0E68C;
+    padding-top: 30px;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+.button_navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.button_navigation li {
+    float: left;
+    padding-left: 1%;
+}
+.poster{
+    margin-bottom: 3%; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.poster img{
+    margin-left: 0;
+    width: 200px;
+    height: 300px;
+}
+.poster-theatrs{
+    padding-top: 2%;
+    margin-bottom: 3%; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.poster-theatrs img{
+    width: 40%;
+    height: 100%;
+}
+.zagolovok{
+    font-size: 200%;
+    cursor: pointer;
+}
+.text_film{
+    width: 60%;
+    margin-left: 2%;
+}
+a{
+    cursor: pointer;
+    color: #0e0e0e;
+    text-decoration: none; 
+    border-bottom: 2px solid transparent; 
+    font-size: 130%;
+}
+a:hover {
+    border-bottom: 2px solid #0e0e0e; 
+}
+
+.genre-container {
+    display: flex; 
+    margin-top: -10px;
+}
+.genre-container P{
+    padding-right: 3%;
+}
+#Halls{
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.hall {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px; 
+}
+
+.hall > p {
+    margin-right: 10px; 
+    display: inline-block;
+}
+
+#genre_movie li{
+    font-size: 150%;
+    margin-right: 5%;
+    list-style-type: none;
+}
+
+#contact li {
+    padding-bottom: 10px; 
+    font-size: 150%;    
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 100%;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #958816;
+    color: white;
+}
+#sogl{
+    font-size: large;
+}
+a > button {  
+    text-decoration: none; 
+    font-size: 120%;
+}
+
+a:hover > button {
+  text-decoration: none; 
+}
+
+#category-queation {
+    list-style: none; 
+    padding: 0;
+    width: 70%;
+}
+  
+#category-queation li a {
+    display: block;
+    font-size: large;
+    padding: 10px;
+    background-color: #F0E68C;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+  
+#category-queation li a:hover {
+    background-color: #958816;
+    color: white;
+}
+  
+#category-queation li .question {
+    padding: 10px;
+    display: none; 
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3%;
+}
+
+#info img{
+    width: 250px;
+    height: 400px;
+}
+
+p{
+    font-size: 140%;
+}
+
+h3{
+    font-size: 140%;
+}
+
+.gruppa{
+    display: flex; 
+    margin-top: -3%;
+}
+
+.gruppa p{
+    padding-right: 2%;
+}
+
+.booking-card {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.booking-card h3 {
+    margin-top: 0;
+}
+#card{
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start;
+}
+#skoro-ticket{
+    position: relative;
+}
+#card > img{
+    margin-left: 5%;
+    width: 250px;
+    height: 300px;
+}
+
+#popularMoviesTable{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#popularMoviesTable th, #popularMoviesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#popularMoviesTable th {
+    background-color: #f2f2f2;
+}
+
+#popular {
+    text-align: center; 
+}
+
+#image-collage > img{
+    width: 250px;
+    height: 200px;
+}
+
+li > img{
+    width: 200px;
+    height: 30px;
+}

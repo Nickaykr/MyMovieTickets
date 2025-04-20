@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Интерстеллар</title>
+    <link rel="stylesheet" href="../style/vhod.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="../index.html"><button>Главная</button></a></li>
+         <li><a href="../fild.html"><button>Фильмы</button></a></li>
+         <li><a href="../theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="../myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="../account.html"><button>Аккаунт</button></a></li>
+         <li><a href="../statistic.html"><button>Статистика</button></a></li>
+         <li><a href="../info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+    <img src="../resourses/ticket.png">
+     <form id="form-bron">
+        <h2>Бронь билета на фильм  </h2>
+        <label for="state">Выберите область:</label>
+        <select id="state" name="state" required>
+          <option value="">Выберите...</option>
+        </select>
+        <label for="city">Выберите город:</label>
+        <select id="city" name="city" required>
+          <option value="">Выберите...</option>
+        </select>
+        <label for="theatrs">Выберите Кинотеатр:</label>
+        <select id="theatrs" name="theatrs" required>
+          <option value="">Выберите...</option>
+        </select>
+        <div id="seance">
+          <h3>Выберите сеанс: </h3>
+          <div id="showtimes">
+
+          </div>
+        </div>
+        <div id="seat-selection">
+          <label for="row-select">Выберите ряд:</label>
+          <select id="row-select" name="row-select">
+            <option value="">Выберите ряд</option>
+          </select>
+      
+          <label for="seat-select">Выберите место:</label>
+          <select id="seat-select" name="seat-select">
+            <option value="">Выберите место</option>  
+          </select><br>
+      
+          <button type="button" id="add-seat">Добавить место</button>
+          <button type="button" id="clear-seats">Очистить выбор</button>
+      
+          <h3>Выбранные места:</h3>
+          <ul id="selected-seats"></ul>
+        </div>
+        <h3>К оплате: <span id="oplata"></span></h3>
+        <button type="button" id="submit-form" class="button">Забронировать</button>
+     </form>
+     <img src="../resourses/ticket.png">
+    </div>
+    <script type="module" src="../script/bron.js"></script>
+  </body>
+</html>

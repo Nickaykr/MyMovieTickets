@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Кинотеатр киномаск</title>
+    <link rel="stylesheet" href="../style/glav.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="../index.html"><button>Главная</button></a></li>
+         <li><a href="../fild.html"><button>Фильмы</button></a></li>
+         <li><a href="../theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="../myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="../account.html"><button>Аккаунт</button></a></li>
+         <li><a href="../statistic.html"><button>Статистика</button></a></li>
+         <li><a href="../info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+        <div class="poster-theatrs">
+            <img src="../resourses/teatrs.jpg" title="Киномакс" >
+            <div class="text_film">
+              <h2 class="zagolovok" id="theatr_name"></h2>
+              <div class="genre-container">
+                <p>Регион: </p>
+                <p id="theatr_state"></p>
+              </div>
+              <div class="genre-container">
+                <p>Город: </p>
+                <p id="theatr_city"></p>
+              </div>
+              <div class="genre-container">
+                <p>Адрес: </p>
+                <p id="theatr_address"></p>
+              </div>
+              <div class="genre-container">
+                <h3>Залы:</h3>
+                <div id="Halls"></div>
+              </div>
+            </div>
+        </div>
+        <h2>Описание:</h2>
+        <p>Предысторией создания компании «Киномакс» стали 2 проекта по переоборудованию кинотеатров старого образца системами новейшего звукового и кино-, видеооборудования: в 1996 году в Москве открыл свои двери «Кодак-Киномир», а в 1997 году совместно с компанией «Госкино России» был переоборудован крупнейший на Урале киноцентр, получивший название «Челябинск-Урал».
+        </p>
+        <h3>Где находимся?</h3>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/kinomaks/171307072101/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Киномакс</a><a href="https://yandex.ru/maps/39/rostov-na-donu/category/cinema/184105868/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кинотеатр в Ростове‑на‑Дону</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.723290%2C47.217827&mode=search&oid=171307072101&ol=biz&sll=39.723290%2C47.217819&source=serp_navig&text=%D0%BA%D0%B8%D0%BD%D0%BE%D0%BC%D0%B0%D0%BA%D1%81%20%D0%BF%D0%BE%D0%B9%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%201&z=13" width="1000" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+    <script src="../script/kinomask.js"></script>
+  </body>
+</html>

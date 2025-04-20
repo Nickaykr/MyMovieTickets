@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Фильмы</title>
+    <link rel="stylesheet" href="style/glav.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="index.html"><button>Главная</button></a></li>
+         <li><a href=""><button>Фильмы</button></a></li>
+         <li><a href="theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="account.html"><button>Аккаунт</button></a></li>
+         <li><a href="statistic.html"><button>Статистика</button></a></li>
+         <li><a href="info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+        <h2><a href="additionally/allMovie.html">Все фильмы</a></h2>
+        <div class="poster">
+          <img src="resourses/film.jpg" alt="Интерстеллар" title="Интерстеллар">
+          <div class="text_film">
+            <a href="additionally/inter.html" id="movieTitle" class="zagolovok"></a>
+            <p id="movieDescription"></p>
+            <div class="genre-container">
+              <h3>Жанр:</h3>
+              <div id="genre_movie"></div>
+            </div>
+          </div>
+        </div>
+        <h2>Жанры</h2>
+        <ul class="button_navigation">
+            <li><a href="additionally/drama.html"><button>Драма</button></a></li>
+            <li><a href="additionally/music.html"><button>Мюзикл</button></a></li>
+            <li><a href=""><button>Фантастика</button></a></li>
+            <li><a href=""><button>Приключение</button></a></li>
+            <li><a href=""><button>боевик</button></a></li>
+            <li><a href=""><button>Комедия</button></a></li>
+        </ul>
+    </div>
+    
+
+    <script src="script/render.js"></script>
+  </body>
+</html>

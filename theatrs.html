@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Фильмы</title>
+    <link rel="stylesheet" href="style/glav.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="index.html"><button>Главная</button></a></li>
+         <li><a href="fild.html"><button>Фильмы</button></a></li>
+         <li><a href=""><button>Кинотеатры</button></a></li>
+         <li><a href="myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="account.html"><button>Аккаунт</button></a></li>
+         <li><a href="statistic.html"><button>Статистика</button></a></li>
+         <li><a href="info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+        <h2>Список кинотеатров</h2>
+        <div class="poster-theatrs">
+            <img src="resourses/teatrs.jpg" title="Киномакс" >
+            <div class="text_film">
+              <a href="additionally/kinomsk.html" class="zagolovok" id="theatr_name"></a>
+              <div class="genre-container">
+                <p>Город: </p>
+                <p id="theatr_city"></p>
+              </div>
+              <div class="genre-container">
+                <p>Адрес: </p>
+                <p id="theatr_address"></p>
+              </div>
+            </div>
+        </div>
+        <h2>Список городов</h2>
+        <ul class="button_navigation">
+          <li><a href="additionally/rostovTheatrs.html"><button>Ростов-на-дону</button></a></li>
+          <li><a href=""><button>Москва</button></a></li>
+          <li><a href=""><button>Санкт-Петербург</button></a></li>
+          <li><a href=""><button>Екатеринбург</button></a></li>
+          <li><a href=""><button>Грозный</button></a></li>
+        </ul>
+    </div>
+    
+
+    <script src="script/renderTheatrs.js"></script>
+  </body>
+</html>

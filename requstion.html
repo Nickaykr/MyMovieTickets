@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Аккаунт</title>
+    <link rel="stylesheet" href="style/vhod.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="index.html"><button>Главная</button></a></li>
+         <li><a href="fild.html"><button>Фильмы</button></a></li>
+         <li><a href="theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href="account.html"><button>Аккаунт</button></a></li>
+         <li><a href="statistic.html"><button>Статистика</button></a></li>
+         <li><a href="info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+      <img src="resourses/logo.jpg" class="photo" id="left">
+      <div class="login-form">
+        <h2>Регистрация</h2>
+        <div class="form-group">
+            <label for="username">Имя:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="usernLastname">Фамилия:</label>
+            <input type="text" id="usernLastname" name="usernLastname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Почта:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="number">Номер телефона:</label>
+            <input type="tel" id="number" name="number"  required>
+        </div>
+        <div class="form-group">
+            <label for="dateBirth">Дата рождения:</label>
+            <input type="date" id="dateBirth" name="dateBirth" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="PovtorPassword">Повторить пароль:</label>
+            <input type="password" id="PovtorPassword" name="PovtorPassword" required>
+        </div>
+        <button id="loginButton">Зарегистрироваться</button><br>
+      </div>
+      <img src="resourses/logo.jpg" class="photo" >
+    </div>
+    <script src="script/requstion.js"></script>
+  </body>
+</html>

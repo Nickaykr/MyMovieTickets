@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Аккаунт</title>
+    <link rel="stylesheet" href="style/vhod.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <h1>Мой КиноБилет</h1>
+      <ul class="button_navigation">
+         <li><a href="index.html"><button>Главная</button></a></li>
+         <li><a href="fild.html"><button>Фильмы</button></a></li>
+         <li><a href="theatrs.html"><button>Кинотеатры</button></a></li>
+         <li><a href="myTickets.html"><button>Мои билеты</button></a></li>
+         <li><a href=""><button>Аккаунт</button></a></li>
+         <li><a href="statistic.html"><button>Статистика</button></a></li>
+         <li><a href="info.html"><button>О нас</button></a></li>
+      </ul>	
+    </div>
+    <div id="content">
+      <img src="resourses/logo.jpg" class="photo" id="left">
+      <div class="login-form">
+        <h2>Вход</h2>
+        <div class="form-group">
+          <label for="email">Почта:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button id="loginButton">Войти</button><br>
+        <a href="requstion.html" id="reqistration">Вы не зарегистрированы?</a>
+        <a href="additionally/forgot-password.html" id="forgot-passwprd" >Забыли пароль?</a>
+      </div>
+      <img src="resourses/logo.jpg" class="photo">
+
+      <div id="accountInfo" >
+        <img src="resourses/user.png">
+        <h2>Профиль</h2>
+        <p>Привет, <span id="userName"></span>!</p>
+        <p>Номер телефона: <span id="tel"></span></p>
+        <p>День рождения: <span id="daybutr"></span></p>
+        <button id="logoutButton">Выйти</button>
+      </div>
+    </div>
+    <script src="script/login.js"></script>
+  </body>
+</html>
